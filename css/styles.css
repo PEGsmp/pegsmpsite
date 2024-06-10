@@ -240,6 +240,14 @@ h6 {
     border-radius: 5px;
     background-color: #005ff9;
 }
+.link-forms {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 25px;
+    border-radius: 5px;
+    background-color: #56368a;
+}
 
 .link-tg > p {
     font-size: 1rem;
@@ -350,6 +358,20 @@ h6 {
 }
 
 .link-mail > a.open:visited {
+    color: var(--open-color);
+}
+
+.link-forms > p {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--link-text-color);
+}
+
+.link-forms > a.open {
+    color: var(--open-color);
+}
+
+.link-forms > a.open:visited {
     color: var(--open-color);
 }
 
